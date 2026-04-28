@@ -22,10 +22,10 @@
 /* Menú */
 #menu {
     width: 25%;
-    float: left;
+    float: right;
     background-color: #bbb;
     padding: 20px;
-    border-right: 1px solid black;
+    border-left: 1px solid black;
     height: 60vh;
 }
 
@@ -37,6 +37,7 @@
     padding: 20px;
     height: 60vh;
 }
+
 
 /* Pie de página */
 #pie {
