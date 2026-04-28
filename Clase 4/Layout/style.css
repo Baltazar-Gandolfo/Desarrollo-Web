@@ -9,7 +9,6 @@
 #contenedor {
     width: 800px;
     margin: 20px auto;
-    border: 1px solid black;
 }
 
 /* Cabecera */
@@ -17,6 +16,7 @@
     background-color: #ddd;
     padding: 20px;
     border-bottom: 1px solid black;
+    display: none;
 }
 
 /* Menú */
