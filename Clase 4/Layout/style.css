@@ -9,7 +9,6 @@
 #contenedor {
     width: 800px;
     margin: 20px auto;
-    border: 1px solid black;
 }
 
 /* Cabecera */
@@ -17,26 +16,30 @@
     background-color: #ddd;
     padding: 20px;
     border-bottom: 1px solid black;
+    display: none;
 }
 
 /* Menú */
 #menu {
     width: 25%;
-    float: left;
+    float: right;
     background-color: #bbb;
     padding: 20px;
-    border-right: 1px solid black;
+    border-left: 1px solid black;
     height: 60vh;
+    display: none;
 }
 
 /* Contenido */
 #contenido {
-    width: 75%;
+    width: 100%;
     float: left;
     background-color: #eee;
     padding: 20px;
     height: 60vh;
+    border: 1px solid black;
 }
+
 
 /* Pie de página */
 #pie {
@@ -45,4 +48,5 @@
     padding: 20px;
     border-top: 1px solid black;
     text-align: center;
+    display: none;
 }
