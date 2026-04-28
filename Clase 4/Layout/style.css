@@ -27,11 +27,12 @@
     padding: 20px;
     border-left: 1px solid black;
     height: 60vh;
+    display: none;
 }
 
 /* Contenido */
 #contenido {
-    width: 75%;
+    width: 100%;
     float: left;
     background-color: #eee;
     padding: 20px;
