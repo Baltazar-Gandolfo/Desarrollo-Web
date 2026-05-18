@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-principal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin: 2vh;
+    border-top: 0.4vh solid yellow;
+    border-bottom: 0.4vh solid yellow;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header-principal h3{
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+    display: flex;
+    font-size: 13vh;
+    justify-content: center;
+}
+
+header h2{
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    font-size: 4vh;
+    justify-content: center;
+}
+main{
+    display: flex;
+    border-top: 2vh solid yellow;
+}
+
+.menu{
+    flex: 1.4;
+    background-color:aqua ;
+    color: rgb(48, 62, 63);
+}
+.principal{
+    flex: 2.6;
+    align-items: center;
+    flex-direction: column;
+}
+.menu h2{
+    font-family:'Times New Roman', Times, serif;
+    padding: 2vh;
+    border-bottom: 0.4vh solid yellow;
+}
+.linea h3{
+    color: white;
+    margin-bottom: 2vh;
+}
+
+.linea{
+    border-bottom: 0.4vh solid yellow;
+}
+
+.menu h3, .menu p{
+    margin: 1vh;
+    margin-left: 2vh;
+}
+
+ul{
+    margin-top: 1vh;
+    list-style-type: none;
+}
+.tabla{
+    color: white;
+    margin: 1vh;
+    margin-left: 2vh;
+}
+
+li, p{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.principal img{
+    width: 35%;
+    margin: 3vh;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh;
+}
+
+footer p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.2vh;
+}

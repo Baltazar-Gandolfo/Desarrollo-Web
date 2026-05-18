@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+}
+
+.header-central{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    align-items: center;
+    border-top: 0.4vh solid gold;
+    border-bottom: 0.4vh solid gold;
+    font-family: sans-serif;
+    font-size: x-small;
+    margin-top: 2vh;
+}
+.h2-header{
+    padding: 1;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+h1{
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    display: flex;
+    font-size: 10vh;
+}
+.p-header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+main{
+    border-top: 2vh solid gold;
+    display: flex;
+}
+.menu{
+    background-color: rgb(107, 201, 224);
+    flex: 1.6;
+}
+
+.contenido{
+    flex: 2.4;
+    justify-content: center;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 2vh;
+}
+
+.articulo p{
+    font: 1em sans-serif;
+    color:darkgreen;
+    padding-left: 5vh;
+    padding-right: 3vh;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+.linea{
+    border-bottom: 0.5vh solid gold;
+}
+.menu h2{
+    color: white;
+    padding-top: 1vh;
+    padding-left: 5vh;
+}
+.menu h3{
+    color: white;
+    padding-top: 3vh;
+    padding-left: 5vh;
+    padding-bottom: 2vh;
+}
+.lista p{
+    font: 1em sans-serif;
+    color:white;
+    padding-left: 5vh;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contenido img {
+    width: 100%;
+    height: 300px; /* ajustá la altura a tu gusto */
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+    object-fit: cover
+}
+
+.contenido div{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido h2{
+    font-size: 4vh;
+    margin-bottom: 2vh;
+}
+.contenido p{
+    margin-bottom: 3vh;
+    font-size: small;
+}
+.boton-sigue {
+    background-color: gold;
+    border: none;
+    padding: 1vh 2vh;
+    font-size: small;
+    align-self: flex-end; /* lo alinea a la derecha */
+}
+footer{
+    margin: 2vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-small;
+}
