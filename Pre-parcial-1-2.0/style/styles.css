@@ -79,10 +79,6 @@ li, p{
     font-family:'Times New Roman', Times, serif;
 }
 
-.principal img{
-    width: 35%;
-    margin: 3vh;
-}
 
 footer{
     display: flex;
@@ -93,4 +89,25 @@ footer{
 footer p{
     font-family:'Times New Roman', Times, serif;
     font-size: 1.2vh;
+}
+
+/* ahora */
+.principal img { 
+    width: 50%; 
+    display: block; 
+    margin: 3vh auto; 
+}
+
+main {
+    flex: 1;             /* se estira para llenar lo que queda */
+    align-items: stretch; /* ambas columnas a la misma altura */
+}
+
+.boton-sigue {
+    background-color: gold;
+    border: none;
+    padding: 1vh 2vh;
+    font-size: small;
+    align-self: flex-end; /* lo alinea a la derecha */
+    margin-top: 1vh;
 }
